@@ -2,6 +2,14 @@
 <html>
 <head>
 	<title>Week 1</title>
+	<link rel="stylesheet" href="style.css">
+	<style type="text/css">
+		th{
+			color: red;
+			text-align: right;
+		}
+
+	</style>
 </head>
 <body>
 	Hello, World!
@@ -14,28 +22,51 @@
 		<ul>
 			Auston Matthews
 			<ol>
-				<img src="am34_1.jpg" width="50%">				
+				<img src="am34_1.jpg" width="10%">				
 			</ol>
 		</ul>		
 	</li>
+	<form>
+		<input type="text" name="playerName" placeholder="Enter Player Name">
+		<button>Submit</button>
+	</form>
+	<br>
 	<table>
 		<tr>
+			<th style="">
+				Top Players
+			</th>
 			<th>
-				List of Leafs players
+				Middle Players
+			</th>
+			<th>
+				End Players
 			</th>
 		</tr>
 		<tr>
-			<td>Mitch Marner</td>
-			<td>Auston Matthews</td>
-			<td>Rasmus Sandin</td>
+			<td style="color:blue;text-align: center">Mitch Marner</td>
+			<td style="color: rgb(255,160,0);">Auston Matthews</td>
+			<td style="color: #FF0FAA">Rasmus Sandin</td>
 		</tr>
 		<tr>
 			<td>Travis Dermott</td>
-			<form>
-				<input type="text" name="playerName" placeholder="Enter Player Name">
-				<button>Submit</button>
-			</form>
+			<td>Martin Marincin</td>
+			<td>John Tavares</td>
 		</tr>
 	</table>
+	<br>
+	<br><br>
+	<hr>
+	<br>
+	<br>
+	<div id="top">
+		This is a <span class="mySpan">top</span> div,
+	</div>
+	<div id="middle">
+		This is a <span class="mySpan">middle</span> div.
+	</div>
+	<div id="bottom">
+		This is a <span class="mySpan">bottom</span> div.
+	</div>
 </body>
 </html>
